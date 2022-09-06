@@ -1,0 +1,12 @@
+// to access this js gile you have to change the src in the html file and write the location of this file 
+
+console.log(document.body.firstChild)
+console.log(document.body.lastChild)
+console.log(document.body.childNodes)
+
+let arr = Array.from(document.body.childNodes)
+console.log(arr)
+
+
+
+//if you also want to do DOM manipulation create a html, css and js file and link together and than copy this code, inspect and ypu will find your output in the console
